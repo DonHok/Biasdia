@@ -2,8 +2,8 @@
 
 # Usage
 1. Unzip dataset.7z in src/ folder
-2. Run src/main.py - the system should be configured in a way to work out of the box
-3. With default configuration results will be written in verification.txt
+2. Run src/main.py in src/ folder - the system should be configured in a way to work out of the box
+3. With default configuration, results will be written in verification.txt
 
 # Further data
 
