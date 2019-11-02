@@ -9,10 +9,11 @@ class Article(Base):
     publication = Column(String, primary_key=True)
     name = Column(String, primary_key=True)
     category = Column(String)
+    author = Column(String)
     subcategory = Column(String)
     text = Column(String)
 
     def __repr__(self):
-        return self.publication + "!$!" + self.name + "!$!" + self.category + "!$!" \
+        return self.publication + "!$!" + self.author + "!$!" + self.name + "!$!" + self.category + "!$!" \
                + self.subcategory + "!$!" + self.text
 
