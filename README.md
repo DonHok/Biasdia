@@ -1,4 +1,6 @@
-# InitialTask
+# BiasScrapper
+
+Application to scrap content from online media outlets and identify bias words by using machine learning
 
 # Usage
 1. Unzip dataset.7z in src/ folder
